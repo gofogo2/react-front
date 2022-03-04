@@ -17,6 +17,17 @@
 .logo {
   font-weight: bold;
   font-size: 30px;
+  display: table;
+}
+
+.logoImg {
+  display: table-cell;
+  vertical-align: middle;
+  height: 50px;
+}
+
+.topLeft {
+  background-color: aqua;
 }
 
 .topRight {
@@ -36,8 +47,6 @@
   position: absolute;
   top: -5px;
   right: 0px;
-  background-color: red;
-  color: white;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -46,7 +55,6 @@
 }
 
 .topAvatar {
-  background-color: beige;
   width: 40px;
   height: 40px;
   border-radius: 50%;

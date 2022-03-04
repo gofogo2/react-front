@@ -7,7 +7,7 @@ const App = () => {
       <Topbar />
       <div className="container">
         <Sidebar />
-        <div className="others">helloworld</div>
+        <div className="others">other Pages</div>
       </div>
     </div>
   );
