@@ -1,0 +1,6 @@
+.sidebar {
+  flex: 1;
+  background-color: darkblue;
+  height: calc(100vh - 50px);
+  position: sticky;
+}
