@@ -1,0 +1,27 @@
+.historyList{
+    background-color: darkolivegreen;
+}
+
+.historyImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.historyButton.Approved{
+    background-color: darkorange;
+    color: darkorchid;
+}
+
+.historyDate, .historyAmount{
+    font-weight: 300;
+}
+
+.historyTable{
+    border-spacing: 20px;
+}
+
+.historyTableTr{
+    text-align: left;
+}
